@@ -1,0 +1,9 @@
+---
+name : runpython
+on: push
+jobs:
+    runpython:
+        runs-on: ubuntu-latest
+        steps:
+        - name: runpython
+            run: python3 hello.py
